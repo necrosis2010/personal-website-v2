@@ -1,0 +1,163 @@
+:root {
+  --text-color: #363636;
+  --navbar-color: #05968f;
+  --navbar-text: #f3f3f3;
+  --primary-color: #14c7be;
+  --button-color: #db6c6c;
+  --footer-color: #252525;
+  --footer-text-color: #e3e3e3;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 50px;
+}
+
+body {
+  background-color: #f1f1f1;
+  color: var(--text-color) !important;
+}
+
+main {
+  background-color: #f1f1f1;
+}
+
+.container-fluid {
+  padding: 0px !important;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: var(--navbar-color);
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+p > a {
+  text-decoration: none;
+  color: black;
+}
+
+div > a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #e4e4e4;
+}
+
+.bgc-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.navbar-nav {
+  margin-left: auto !important;
+}
+
+.nav-item {
+  font-size: 1.8rem;
+  color: var(--navbar-text) !important;
+}
+
+.display-picture {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  float: left;
+}
+
+p.bio {
+  font-size: 1.3rem;
+}
+
+.skills {
+  width: 70%;
+  margin: auto;
+}
+
+.card-header {
+  font-size: 1.8rem;
+}
+
+.list-group {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+li.list-group-item {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  justify-content: space-between;
+}
+
+.skill-image {
+  height: 50px;
+  width: 50px;
+}
+
+.inner-flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.hobbies-interests {
+  width: 85%;
+  margin: auto;
+}
+
+.hobbies-content {
+  margin-left: 20px !important;
+}
+
+.interests-image {
+  width: 200px;
+  height: 200px;
+}
+
+#btn-back-to-top {
+  font-size: 2rem;
+  border-color: var(--button-color);
+  border-radius: 40%;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: none;
+  background-color: var(--button-color);
+}
+
+.bgc-footer {
+  background-color: var(--footer-color);
+  color: var(--footer-text-color);
+}
+
+p.footer-greeting {
+  font-size: 2rem;
+}
+
+i.fa-reddit {
+  color: #ff5700;
+}
+
+i.fa-envelope-open-text {
+  color: #ea4335;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px 27px 10px;
+  border-radius: 40%;
+}
